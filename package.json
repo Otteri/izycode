@@ -1,0 +1,22 @@
+{
+    "name": "izycode",
+    "displayName": "IzyCode",
+    "description": "Cold cyan greyish color theme for VS Code",
+    "version": "0.0.1",
+    "publisher": "Otteri",
+    "engines": {
+        "vscode": "^1.26.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "IzyCode",
+                "uiTheme": "vs-dark",
+                "path": "./themes/IzyCode-color-theme.json"
+            }
+        ]
+    }
+}
