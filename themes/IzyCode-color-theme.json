@@ -63,18 +63,15 @@
         // Footer:
 		"statusBar.foreground": "#779da0",
 		"statusBarItem.activeBackground": "#303030",
-		"statusBarItem.hoverBackground": "#779da0",
+		"statusBarItem.hoverBackground": "#242424",
 		"statusBar.debuggingForeground": "#00eeff",
 		"statusBar.border": "#424242",
 		"statusBar.debuggingBorder": "#424242",
 		"statusBar.noFolderForeground": "#00eeff",
 		"statusBar.noFolderBorder": "#424242",
-		"statusBarItem.prominentBackground": "#ff0000",
-		"statusBarItem.prominentHoverBackground": "#ff0000",
-		"list.inactiveFocusBackground": "#ff0000",
 
 		"statusBar.background": "#303030",
-		"statusBar.debuggingBackground": "#00eeff",
+		"statusBar.debuggingBackground": "#424242",
 		"statusBar.noFolderBackground": "#303030",
 
 
@@ -106,18 +103,11 @@
 //   #f8f8f2 (editor foreground)
 "tokenColors": [
 	{
-		"settings": {
-			"background": "#272822",
-			"foreground": "#F8F8F2"
-		}
-	},
-	{
 		"scope": [
 			"meta.embedded",
 			"source.groovy.embedded"
 		],
 		"settings": {
-			"background": "#272822",
 			"foreground": "#F8F8F2"
 		}
 	},
@@ -281,7 +271,6 @@
 		"name": "Invalid",
 		"scope": "invalid",
 		"settings": {
-			"background": "#F92672",
 			"fontStyle": "",
 			"foreground": "#F8F8F0"
 		}
@@ -290,7 +279,6 @@
 		"name": "Invalid deprecated",
 		"scope": "invalid.deprecated",
 		"settings": {
-			"background": "#AE81FF",
 			"foreground": "#F8F8F0"
 		}
 	},
