@@ -2,19 +2,22 @@
 	"name": "IzyCode",
 	"type": "dark",
 	"colors": {
-        "foreground": "#00eeff",
-        "editor.selectionBackground": "#00eeff56",
+
+		"foreground": "#caf0f0",
+		"textLink.foreground": "#76e0e7",
+		"textLink.activeForeground": "#80f6ff",
+        "editor.selectionBackground": "#00eeff3f",
 		"editor.selectionHighlightBackground": "#00eeff1a",	
-		"terminal.selectionBackground": "#00eeff56",
+		"terminal.selectionBackground": "#00eeff3f",
 		"editorBracketMatch.background": "#779da0",
 		
 		// Editor
-		"editor.foreground": "#dfe6e7", // main text color
+		"editor.foreground": "#e5e7e7", // main text color
         "editor.background": "#242424",
-        "editor.lineHighlightBackground": "#1b1b1b",
-        "editor.lineHighlightBorder": "#25292b",
-        "editorIndentGuide.activeBackground": "#444e4e",
-        "editorIndentGuide.background": "#303636",
+        "editor.lineHighlightBackground": "#202020",
+        "editor.lineHighlightBorder": "#2d2e2e",
+        "editorIndentGuide.activeBackground": "#343d3f",
+        "editorIndentGuide.background": "#2d2e2e",
         "editorLineNumber.foreground": "#779da0",
         "editorLineNumber.activeForeground": "#00eeff",
         "editorCursor.foreground": "#779da0",
@@ -34,10 +37,11 @@
 
         // Activity bar:
         "activityBar.background": "#272727",
-		"activityBar.foreground": "#779da0",
-		"activityBarBadge.background": "#779da0",
-		"activityBarBadge.foreground": "#00eeff",
-        
+		"activityBar.foreground": "#00eeff",
+		"activityBarBadge.background": "#424242",
+		"activityBarBadge.foreground": "#80f6ff",
+
+		
         // Explorer file / folder names
         "sideBarSectionHeader.foreground": "#00eeff",
         "sideBar.foreground": "#779da0",
@@ -57,8 +61,8 @@
         "panelTitle.activeForeground": "#00eeff",
         "panelTitle.inactiveForeground": "#779da0",
         "terminal.background": "#242424",
-        "terminal.foreground": "#8cacad",
-        "terminal.ansiBrightYellow": "#00eeff",
+		"terminal.foreground": "#8cacad",
+        //"terminal.ansiBrightYellow": "#00eeff",
 
         // Footer:
 		"statusBar.foreground": "#779da0",
@@ -74,10 +78,9 @@
 		"statusBar.debuggingBackground": "#424242",
 		"statusBar.noFolderBackground": "#303030",
 
-
         // Input:
         "input.foreground": "#00eeff",
-        "input.background": "#2d2e2e",
+        "input.background": "#272727",
         "input.border": "#424242",
         "badge.background": "#424242",
         "badge.foreground": "#779da0",
@@ -87,10 +90,10 @@
 		"dropdown.foreground": "#00eeff",
 		
 		// Button & Slider:
-		"button.background": "#424242",
-		"button.hoverBackground": "#779da0",
+		"button.background": "#272727",
+		"button.hoverBackground": "#424242",
 		"button.foreground": "#779da0",
-		"scrollbarSlider.background": "#424242",
+		"scrollbarSlider.background": "#303030",
 		"scrollbarSlider.hoverBackground": "#424242",
 		"scrollbarSlider.activeBackground": "#779da0",
 
