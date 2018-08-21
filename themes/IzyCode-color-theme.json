@@ -5,7 +5,7 @@
 
 		"foreground": "#caf0f0",
 		"textLink.foreground": "#76e0e7",
-		"textLink.activeForeground": "#80f6ff",
+		"textLink.activeForeground": "#00eeff",
         "editor.selectionBackground": "#00eeff3f",
 		"editor.selectionHighlightBackground": "#00eeff1a",	
 		"terminal.selectionBackground": "#00eeff3f",
@@ -39,7 +39,7 @@
         "activityBar.background": "#272727",
 		"activityBar.foreground": "#00eeff",
 		"activityBarBadge.background": "#424242",
-		"activityBarBadge.foreground": "#80f6ff",
+		"activityBarBadge.foreground": "#76e0e7",
 
 		
         // Explorer file / folder names
@@ -54,34 +54,32 @@
 		"list.focusForeground": "#00eeff",
 		"list.inactiveSelectionForeground": "#00eeff",
 
-        // Terminal:
-        "panel.background": "#303030",
-        "panel.border": "#00eeff",
-        "panelTitle.activeBorder": "#242424",
-        "panelTitle.activeForeground": "#00eeff",
-        "panelTitle.inactiveForeground": "#779da0",
-        "terminal.background": "#242424",
-		"terminal.foreground": "#8cacad",
-        //"terminal.ansiBrightYellow": "#00eeff",
+		// Terminal:
+		"panel.border":                  "#00eeff",
+        "panel.background":              "#303030",
+        "panelTitle.activeForeground":   "#00eeff",
+		"panelTitle.inactiveForeground": "#779da0",
+		"panelTitle.activeBorder":       "#242424", // Hide
+        "terminal.background":           "#242424",
+		"terminal.foreground":           "#8cacad",
 
-        // Footer:
-		"statusBar.foreground": "#779da0",
-		"statusBarItem.activeBackground": "#303030",
-		"statusBarItem.hoverBackground": "#242424",
+		// Footer:
+		"statusBarItem.hoverBackground": "#272727",
+		"statusBarItem.activeBackground":"#303030",
+		"statusBar.border":              "#424242",
+		"statusBar.debuggingBorder":     "#424242",
+		"statusBar.noFolderBorder":      "#424242",
+		"statusBar.foreground":          "#00eeff",
 		"statusBar.debuggingForeground": "#00eeff",
-		"statusBar.border": "#424242",
-		"statusBar.debuggingBorder": "#424242",
-		"statusBar.noFolderForeground": "#00eeff",
-		"statusBar.noFolderBorder": "#424242",
-
-		"statusBar.background": "#303030",
-		"statusBar.debuggingBackground": "#424242",
-		"statusBar.noFolderBackground": "#303030",
+		"statusBar.noFolderForeground":  "#00eeff",
+		"statusBar.background":          "#303030",
+		"statusBar.debuggingBackground": "#303030",
+		"statusBar.noFolderBackground":  "#303030",
 
         // Input:
         "input.foreground": "#00eeff",
         "input.background": "#272727",
-        "input.border": "#424242",
+        "input.border":     "#424242",
         "badge.background": "#424242",
         "badge.foreground": "#779da0",
 
@@ -169,7 +167,7 @@
 		}
 	},
 	{
-		"name": "Variable",
+		"name": "Variables",
 		"scope": "variable",
 		"settings": {
 			"fontStyle": "",
@@ -188,11 +186,19 @@
 		"scope": "storage",
 		"settings": {
 			"fontStyle": "",
-			"foreground": "#F92672"
+			"foreground": "#AE81FF"
+		}
+	},	
+	{
+		"name": "Storage type",
+		"scope": "storage.type",
+		"settings": {
+			"fontStyle": "italic",
+			"foreground": "#66D9EF"
 		}
 	},
 	{
-		"name": "Storage type",
+		"name": "Library class/type",
 		"scope": "storage.type",
 		"settings": {
 			"fontStyle": "italic",
@@ -203,7 +209,6 @@
 		"name": "Inherited class",
 		"scope": "entity.other.inherited-class",
 		"settings": {
-			"fontStyle": "italic underline",
 			"foreground": "#a6e22ee5"
 		}
 	},
@@ -404,8 +409,9 @@
 		"name": "this.self",
 		"scope": "variable.language",
 		"settings": {
-			"foreground": "#fd1f1f"
+			"foreground": "#00eeff"
 		}
-	}
+	},
+	
 ]
 }
