@@ -24,7 +24,7 @@
 		"editorGutter.background": "#242424",
 		"editor.selectionBackground": "#00eeff3f",
 		"editor.selectionHighlightBackground": "#00eeff1a",
-		"editorBracketMatch.background": "#779da0",
+		"editorBracketMatch.background": "#779da0a9",
 		"editor.findMatchBorder": "#00eeff3f", // <- tweak
 
         // Tabs:
