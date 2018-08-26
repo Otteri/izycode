@@ -3,11 +3,14 @@
 	"type": "dark",
 	"colors": {
 
+		// Please put this line to User Settings:
+		// "window.titleBarStyle": "custom"
+
 		// Main:
 		"foreground": "#caf0f0",
 		"textLink.foreground": "#76e0e7",
 		"textLink.activeForeground": "#3bbfff",
-		
+
 		// Editor:
 		"editor.foreground": "#e5e7e7", // main text color
         "editor.background": "#242424",
@@ -20,8 +23,9 @@
         "editorCursor.foreground": "#779da0",
 		"editorGutter.background": "#242424",
 		"editor.selectionBackground": "#00eeff3f",
-		"editor.selectionHighlightBackground": "#00eeff1a",	
+		"editor.selectionHighlightBackground": "#00eeff1a",
 		"editorBracketMatch.background": "#779da0",
+		"editor.findMatchBorder": "#00eeff3f", // <- tweak
 
         // Tabs:
         "tab.inactiveBackground": "#242424",
@@ -40,7 +44,7 @@
 		"activityBar.foreground": "#3bbfff",
 		"activityBarBadge.background": "#424242",
 		"activityBarBadge.foreground": "#3bbfff",
-	
+
         // Explorer file / folder names
         "sideBarSectionHeader.foreground": "#3bbfff",
         "sideBar.foreground": "#779da0",
@@ -57,10 +61,14 @@
 		"gitDecoration.submoduleResourceForeground":  "#424242",
 		"gitDecoration.untrackedResourceForeground":  "#424242",
 		"gitDecoration.ignoredResourceForeground":    "#424242",
-		"gitDecoration.deletedResourceForeground":    "#a07777",
-		"gitDecoration.addedResourceForeground":      "#77a08d",
-		"gitDecoration.conflictingResourceForeground":"#a08e77",
+		"gitDecoration.deletedResourceForeground":    "#3d2424",
+		"gitDecoration.addedResourceForeground":      "#233b30",
+		"gitDecoration.conflictingResourceForeground":"#3b3523",
 		"gitDecoration.modifiedResourceForeground":   "#76e0e7",
+
+		"diffEditor.insertedTextBackground":          "#233b30",
+		"diffEditor.removedTextBackground":           "#3d2424",
+
 
 		// Terminal:
 		"panel.border":                  "#3bbfff",
@@ -71,6 +79,8 @@
         "terminal.background":           "#242424",
 		"terminal.foreground":           "#779da0",
 		"terminal.selectionBackground":  "#00eeff3f",
+
+		"debugToolBar.background":       "#242424",
 
 		// Footer:
 		"statusBarItem.hoverBackground": "#272727",
@@ -95,7 +105,7 @@
         // Dropdown:
         "dropdown.background": "#424242",
 		"dropdown.foreground": "#3bbfff",
-		
+
 		// Button & Slider:
 		"button.foreground":               "#779da0",
 		"button.background":               "#272727",
@@ -197,7 +207,7 @@
 			"fontStyle": "",
 			"foreground": "#AE81FF"
 		}
-	},	
+	},
 	{
 		"name": "Storage type",
 		"scope": "storage.type",
@@ -275,13 +285,6 @@
 		"settings": {
 			"fontStyle": "italic",
 			"foreground": "#66D9EF"
-		}
-	},
-	{
-		"name": "Library variable",
-		"scope": "support.other.variable",
-		"settings": {
-			"fontStyle": ""
 		}
 	},
 	{
@@ -421,9 +424,6 @@
 			"foreground": "#3bbfff"
 		}
 	},
-	
+
 ]
 }
-
-// Old Neon Cyan: #00eeff
-// New Blue: 3bbfff
