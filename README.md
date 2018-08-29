@@ -1,24 +1,13 @@
 
 # IzyCode
-```
-                               _
-(_)                           | |
- _ ____ _   _  ____  ____  ___| | _____
-| |_   / |_| |/  __|/    \/  _  |/  _  \
-| |/  /_\__  |  (__   ()    (_| |   ___/
-|_|_____||___|\____|\____/\__,__|\_____|
-```
-## Synopsis
-
-IzyCode is a theme extension to the *Visual Studio Code*. The theme is not only visually appealing, but also pleasant to use. The colors has been hand picked carefully, so the theme's immersion is uniform and practical. The background colors are mainly dark and cold, wherease syntax colors are bright and vivid. This allows user to concentrate on the code itself and not get distracted from bright light of the display.
+IzyCode is a theme extension for *Visual Studio Code*. The theme aims to be uniform, practical and stylish. The syntax colors mimics the notorious Monokai theme wherease the editor colors are darker shades of gray with a touch of blue glow. The dark background is perfect for night sessions and colorful Monokai syntax helps concentrating on the right things.
 
 
-[Screenshot of theme here]
-
+[*Screenshot of the theme*]
 
 
 ## Color palette
 
-The syntax colors mimics the notorious Monokai theme. Editor background colors are different shades of cold gray and blue. The color palette below visualizes the harmony of the colors. The most outern colors are the syntax colors and others are editor colors.
+Following colors has been used on the theme. The most outern colors are the syntax colors wherease inner colors are the editor background colors.
 
-![Color palette](/images/ColorFlowerMid.png)
+![Color palette](images/ColorFlowerMid.png)

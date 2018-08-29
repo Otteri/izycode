@@ -1,9 +1,10 @@
 {
     "name": "izycode",
     "displayName": "IzyCode",
-    "description": "Cold cyan greyish color theme for VS Code",
+    "description": "Cold, gray, blue - this theme is for you.",
     "version": "0.0.1",
     "publisher": "Otteri",
+    "repository": { "type": "git", "url": "https://github.com/Otteri/izycode" },
     "engines": {
         "vscode": "^1.26.0"
     },
