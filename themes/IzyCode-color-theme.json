@@ -31,13 +31,14 @@
 	"editorIndentGuide.activeBackground":  "#424242",
 	"editorLineNumber.activeForeground":   "#3bbfff",
 	"editorLineNumber.foreground":         "#779da0",
-	"editorCursor.foreground":             "#779da0",
+	"editorCursor.foreground":             "#3bbfff",
 	"editorGutter.background":             "#242424",
-	"editor.selectionBackground":          "#00eeff3f",
-	"editor.selectionHighlightBackground": "#00eeff1a",
+	"editor.selectionBackground":          "#00eeff10",
+	"editor.selectionHighlightBackground": "#00eeff0a",
 	"editorBracketMatch.background":       "#779da0a9",
 	"editor.findMatchBorder":              "#00eeff3f",
 	"editorError.foreground":              "#be2a2a",
+	"titleBar.activeBackground":           "#272727",
 
 	// Tabs:
 	"tab.inactiveBackground": "#242424",
@@ -114,7 +115,7 @@
 	"badge.foreground": "#779da0",
 
 	// Dropdown:
-	"dropdown.background": "#424242",
+	"dropdown.background": "#303030",
 	"dropdown.foreground": "#3bbfff",
 
 	// Button & Slider:
@@ -143,7 +144,7 @@
 		"name": "Comment",
 		"scope": "comment",
 		"settings": {
-			"foreground": "#4f5858"
+			"foreground": "#565f5f"
 		}
 	},
 	{
