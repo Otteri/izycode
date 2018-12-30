@@ -33,9 +33,9 @@
 	"editorLineNumber.foreground":         "#779da0",
 	"editorCursor.foreground":             "#3bbfff",
 	"editorGutter.background":             "#242424",
-	"editor.selectionBackground":          "#00eeff25",
-	"editor.selectionHighlightBackground": "#00eeff0a",
-	"editorBracketMatch.background":       "#659a9ea9",
+	"editor.selectionBackground":          "#00eeff28",
+	"editor.selectionHighlightBackground": "#00eeff18",
+	"editorBracketMatch.background":       "#659a9ea1",
 	"editor.findMatchBorder":              "#00eeff3f",
 	"editorError.foreground":              "#be2a2a",
 	"titleBar.activeBackground":           "#272727",
@@ -114,9 +114,16 @@
 	"badge.background": "#424242",
 	"badge.foreground": "#779da0",
 
-	// Dropdown:
+	// Dropdowns:
 	"dropdown.background": "#303030",
 	"dropdown.foreground": "#3bbfff",
+	"editorSuggestWidget.foreground": "#779da0",
+	"editorSuggestWidget.selectedBackground": "#242424",
+	"editorSuggestWidget.highlightForeground": "#3bbfff",
+	"editorSuggestWidget.background": "#2d2e2e",
+	"editorSuggestWidget.border": "#424242",
+	"menu.selectionForeground": "#3bbfff",
+	"menu.foreground": "#779da0",
 
 	// Button & Slider:
 	"button.foreground":               "#779da0",
