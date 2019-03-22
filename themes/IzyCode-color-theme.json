@@ -1,7 +1,4 @@
 ///////////////////////////////////////////////////////////
-// Please, put this line into User Settings:
-// "window.titleBarStyle": "custom"
-///////////////////////////////////////////////////////////
 //                                _
 // (o)                           | |
 //  _ ____ _   _  ____  ____  ___| | _____
@@ -11,19 +8,30 @@
 //
 // Author: Otteri
 ///////////////////////////////////////////////////////////
+//
+// Additional optional settings:
+//
+// settings.json:
+//   "terminal.integrated.cursorBlinking": true,
+//   "terminal.integrated.cursorStyle": "line"
+//   "breadcrumbs.enabled": true,
+//
+// If you are using bash and want listing coloring, then
+// put this to your .bashrc file: alias ls='ls --color'
+
 
 {
 	"name": "IzyCode",
 	"type": "dark",
 	"colors": {
-	
+
 		// Main:
 		"foreground": "#caf0f0",
 		"textLink.foreground": "#76e0e7",
 		"textLink.activeForeground": "#3bbfff",
-	
+
 		// Editor:
-		"editor.foreground":                   "#c2c2c2",
+		"editor.foreground":                   "#c8c8c8",
 		"editor.background":                   "#242424",
 		"editor.lineHighlightBackground":      "#202020",
 		"editor.lineHighlightBorder":          "#2d2e2e",
@@ -37,29 +45,32 @@
 		"editor.selectionHighlightBackground": "#7e7e7e2d",
 		"editor.findMatchHighlightBackground": "#8d8d8d3a",
 		"editorBracketMatch.background":       "#659a9ea1",
-		"editorError.foreground":              "#be2a2a",
+		"editorError.foreground":              "#ff4028",
+		"titleBar.inactiveBackground":         "#303030",
 		"titleBar.activeBackground":           "#272727",
 		"titleBar.activeForeground":           "#779da0",
-	
+
 		// Tabs:
 		"tab.inactiveBackground": "#202020",
 		"tab.activeBackground":   "#272727",
+		"tab.hoverBackground":    "#272727",
 		"tab.activeForeground":   "#3bbfff",
 		"tab.inactiveForeground": "#779da0",
-		"tab.border":             "#424242",
+		"tab.border":             "#111111",
 		"tab.activeBorderTop":    "#3bbfff",
-	
+
 		// Activity bar:
 		"activityBar.background":      "#272727",
 		"activityBar.foreground":      "#3bbfff",
 		"activityBarBadge.background": "#424242",
 		"activityBarBadge.foreground": "#3bbfff",
-	
+		"activityBar.border":          "#202020",
+
 		// Explorer:
 		"sideBar.background":              "#2d2e2e",
-		"sideBar.border":                  "#303030",
+		"sideBar.border":                  "#202020",
 		"sideBarSectionHeader.background": "#272727",
-	
+
 		// Explorer file / folder names
 		"sideBarSectionHeader.foreground":  "#3bbfff",
 		"sideBar.foreground":               "#779da0",
@@ -70,32 +81,9 @@
 		"list.inactiveSelectionBackground": "#272727",
 		"list.focusBackground":             "#272727",
 		"list.focusForeground":             "#3bbfff",
-		"list.inactiveSelectionForeground": "#3bbfff",
-		"list.errorForeground":             "#be2a2a",
-	
-		// Git colors:
-		"gitDecoration.submoduleResourceForeground":  "#494949",
-		"gitDecoration.untrackedResourceForeground":  "#494949",
-		"gitDecoration.ignoredResourceForeground":    "#494949",
-		"gitDecoration.deletedResourceForeground":    "#633d3d",
-		"gitDecoration.addedResourceForeground":      "#233b30",
-		"gitDecoration.conflictingResourceForeground":"#3b3523",
-		"gitDecoration.modifiedResourceForeground":   "#76e0e7",
-	
-		"diffEditor.insertedTextBackground":          "#233b30",
-		"diffEditor.removedTextBackground":           "#633d3d",
-	
-		// Terminal:
-		"panel.border":                  "#3bbfff",
-		"panel.background":              "#303030",
-		"panelTitle.activeForeground":   "#3bbfff",
-		"panelTitle.inactiveForeground": "#779da0",
-		"panelTitle.activeBorder":       "#3bbeff00",
-		"terminal.background":           "#242424",
-		"terminal.foreground":           "#779da0",
-		"terminal.selectionBackground":  "#00eeff3f",
-		"debugToolBar.background":       "#242424",
-	
+		"list.inactiveSelectionForeground": "#3bbeffa6",
+		"list.hoverBackground":             "#272727",
+
 		// Footer:
 		"statusBarItem.hoverBackground": "#272727",
 		"statusBarItem.activeBackground":"#303030",
@@ -108,7 +96,7 @@
 		"statusBar.background":          "#303030",
 		"statusBar.debuggingBackground": "#303030",
 		"statusBar.noFolderBackground":  "#303030",
-	
+
 		// Input:
 		"input.foreground": "#3bbfff",
 		"input.background": "#202020",
@@ -116,8 +104,8 @@
 		"badge.background": "#424242",
 		"badge.foreground": "#779da0",
 		"input.placeholderForeground": "#779da0",
-		"focusBorder":"#424242",
-	
+		"focusBorder":"#303030",
+
 		// Dropdowns:
 		"dropdown.background": "#272727",
 		"dropdown.foreground": "#3bbfff",
@@ -126,7 +114,7 @@
 		"editorSuggestWidget.highlightForeground": "#3bbfff",
 		"editorSuggestWidget.background": "#2d2e2e",
 		"editorSuggestWidget.border": "#424242",
-		
+
 		// Menu:
 		"menu.selectionForeground": "#3bbfff",
 		"menu.foreground": "#779da0",
@@ -135,7 +123,7 @@
 		"menu.separatorBackground": "#494949",
 		"menubar.selectionForeground": "#3bbfff",
 		"menubar.selectionBackground": "#202020",
-	
+
 		// Button & Slider:
 		"button.foreground":               "#779da0",
 		"button.background":               "#272727",
@@ -143,13 +131,52 @@
 		"scrollbarSlider.background":      "#424242",
 		"scrollbarSlider.hoverBackground": "#424242",
 		"scrollbarSlider.activeBackground":"#779da0",
-	
+
 		// Widgets:
 		"editorWidget.border": "#494949",
 		"widget.shadow": "#111111",
-		"editorHoverWidget.background": "#272727"
+		"editorHoverWidget.background": "#272727",
+
+		// Filenames:
+		"gitDecoration.submoduleResourceForeground":  "#494949",
+		"gitDecoration.untrackedResourceForeground":  "#494949",
+		"gitDecoration.ignoredResourceForeground":    "#494949",
+		"gitDecoration.deletedResourceForeground":    "#ff4028",
+		"gitDecoration.conflictingResourceForeground":"#bebe00",
+		"gitDecoration.modifiedResourceForeground":   "#77a08b",
+		"gitDecoration.addedResourceForeground":      "#40ff40",
+		"diffEditor.insertedTextBackground":          "#233b30",
+		"diffEditor.removedTextBackground":           "#633d3d",
+
+		// Terminal:
+		"panel.border":                  "#3bbfff",
+		"panel.background":              "#303030",
+		"panelTitle.activeForeground":   "#3bbfff",
+		"panelTitle.inactiveForeground": "#779da0",
+		"panelTitle.activeBorder":       "#3bbeff00",
+		"terminal.background":           "#242424",
+		"terminal.foreground":           "#779da0",
+		"terminal.selectionBackground":  "#00eeff3f",
+		"debugToolBar.background":       "#242424",
+
+		// Terminal sytax (msysGit colors)
+		"terminal.ansiBrightBlack": "#808080",
+		"terminal.ansiGreen": "#40c840",
+		"terminal.ansiBrightGreen": "#40ff40",
+		"terminal.ansiRed": "#ff4028",
+		"terminal.ansiBrightRed": "#ff8040",
+		"terminal.ansiYellow": "#bebe00",
+		"terminal.ansiBrightYellow": "#ffff40",
+		"terminal.ansiBlue": "#80a0ff",
+		"terminal.ansiBrightBlue": "#0080ff",
+		"terminal.ansiMagenta": "#c840ff",
+		"terminal.ansiBrightMagenta": "#ff80ff",
+		"terminal.ansiCyan": "#40bebe",
+		"terminal.ansiBrightCyan": "#80ffff",
+		"terminal.ansiWhite": "#c8c8c8",
+		"terminal.ansiBrightWhite": "#ffffff"
 	},
-	
+
 	// Syntax colors - colors are based on Monokai theme:
 	"tokenColors":
 	[
@@ -457,5 +484,4 @@
 		},
 	]
 	}
-	
-	
+
