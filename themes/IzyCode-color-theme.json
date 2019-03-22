@@ -137,6 +137,11 @@
 		"widget.shadow": "#111111",
 		"editorHoverWidget.background": "#272727",
 
+		"breadcrumb.activeSelectionForeground": "#3bbfff",
+		"breadcrumb.foreground": "#779da0",
+		"breadcrumb.background": "#272727",
+		"breadcrumb.focusForeground": "#272727",
+
 		// Filenames:
 		"gitDecoration.submoduleResourceForeground":  "#494949",
 		"gitDecoration.untrackedResourceForeground":  "#494949",
