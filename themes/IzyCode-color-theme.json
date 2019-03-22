@@ -137,10 +137,12 @@
 		"widget.shadow": "#111111",
 		"editorHoverWidget.background": "#272727",
 
+		// Breadcrumb
 		"breadcrumb.activeSelectionForeground": "#3bbfff",
 		"breadcrumb.foreground": "#779da0",
 		"breadcrumb.background": "#272727",
-		"breadcrumb.focusForeground": "#272727",
+		"breadcrumb.focusForeground": "#3bbfff",
+		"breadcrumbPicker.background": "#272727",
 
 		// Filenames:
 		"gitDecoration.submoduleResourceForeground":  "#494949",
@@ -150,8 +152,8 @@
 		"gitDecoration.conflictingResourceForeground":"#bebe00",
 		"gitDecoration.modifiedResourceForeground":   "#77a08b",
 		"gitDecoration.addedResourceForeground":      "#40ff40",
-		"diffEditor.insertedTextBackground":          "#233b30",
-		"diffEditor.removedTextBackground":           "#633d3d",
+		"diffEditor.insertedTextBackground":          "#40c8401f",
+		"diffEditor.removedTextBackground":           "#ff41281f",
 
 		// Terminal:
 		"panel.border":                  "#3bbfff",
