@@ -166,17 +166,17 @@
 		"terminal.selectionBackground":  "#00eeff3f",
 		"debugToolBar.background":       "#242424",
 
-		// Terminal sytax (msysGit colors)
+		// Terminal colors (msysGit & Tango mix)
 		"terminal.ansiBrightBlack": "#808080",
-		"terminal.ansiGreen": "#40c840",
-		"terminal.ansiBrightGreen": "#40ff40",
+		"terminal.ansiGreen": "#5bb309",
+		"terminal.ansiBrightGreen": "#8AE234",
 		"terminal.ansiRed": "#ff4028",
 		"terminal.ansiBrightRed": "#ff8040",
 		"terminal.ansiYellow": "#bebe00",
 		"terminal.ansiBrightYellow": "#ffff40",
-		"terminal.ansiBlue": "#80a0ff",
-		"terminal.ansiBrightBlue": "#0080ff",
-		"terminal.ansiMagenta": "#c840ff",
+		"terminal.ansiBlue": "#3465A4",
+		"terminal.ansiBrightBlue": "#729FCF",
+		"terminal.ansiMagenta": "#b03cdf",
 		"terminal.ansiBrightMagenta": "#ff80ff",
 		"terminal.ansiCyan": "#40bebe",
 		"terminal.ansiBrightCyan": "#80ffff",
