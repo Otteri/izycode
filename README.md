@@ -2,9 +2,7 @@
 # IzyCode
 IzyCode is a theme extension for *Visual Studio Code*. The theme aims to be uniform, practical and stylish. The syntax colors mimics the notorious Monokai theme wherease the editor colors are darker shades of gray with a touch of blue glow. The dark background is perfect for night sessions and colorful Monokai syntax helps concentrating on the right things.
 
-
-[*Screenshot of the theme*]
-
+![Screenshot](images/IzyCode-screenshot.png)
 
 ## Color palette
 
