@@ -145,9 +145,9 @@
 		"breadcrumbPicker.background": "#272727",
 
 		// Filenames:
-		"gitDecoration.submoduleResourceForeground":  "#494949",
-		"gitDecoration.untrackedResourceForeground":  "#494949",
-		"gitDecoration.ignoredResourceForeground":    "#494949",
+		"gitDecoration.submoduleResourceForeground":  "#659a9ea1",
+		"gitDecoration.untrackedResourceForeground":  "#659a9ea1",
+		"gitDecoration.ignoredResourceForeground":    "#659a9ea1",
 		"gitDecoration.deletedResourceForeground":    "#ff4028",
 		"gitDecoration.conflictingResourceForeground":"#bebe00",
 		"gitDecoration.modifiedResourceForeground":   "#77a08b",
@@ -491,4 +491,3 @@
 		},
 	]
 	}
-
